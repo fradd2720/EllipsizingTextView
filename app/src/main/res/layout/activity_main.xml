@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.fradd2720.ellipsizingtextview.EllipsizingTextView
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum erat semper tellus mattis pretium. Duis sed odio mauris. Vivamus feugiat massa in dui tincidunt, eu mollis tellus porta. Nulla quis rhoncus sapien. Aenean rutrum, arcu quis luctus convallis, nunc ex molestie nisi, ac mattis ipsum libero a lacus. Duis efficitur dui eros, a vulputate mauris posuere pellentesque. Curabitur ultrices egestas ligula, sed pretium leo euismod id. Morbi sit amet sem a orci imperdiet elementum. Nullam aliquam massa eu quam egestas, sit amet luctus magna ultricies. In maximus lectus a lacus faucibus, non rhoncus odio cursus.
+Cras eleifend accumsan libero, eu congue nulla commodo vitae. Nunc ut dapibus ex. Sed pulvinar felis est, eget feugiat lectus ornare vitae. Donec massa mi, commodo eu arcu sit amet, dapibus pretium eros. Pellentesque luctus cursus lectus sit amet pharetra. In vel nisl vel neque feugiat vehicula. Sed porta diam quis ipsum efficitur maximus. Mauris scelerisque blandit malesuada. Pellentesque vehicula metus sit amet luctus tincidunt. Donec sollicitudin turpis ante, at ultricies justo volutpat non. Duis viverra ultrices quam, id sagittis tellus accumsan sed. Integer sit amet ipsum sit amet ipsum dictum tristique et quis sem. Ut ac felis eget erat efficitur ullamcorper in eget lacus. Fusce pharetra accumsan posuere.
+Fusce tincidunt ut turpis ut vestibulum. Vivamus dignissim purus commodo purus finibus, non pulvinar lorem porta. Proin iaculis venenatis libero ultrices aliquam. Nullam sagittis elit eget elit tincidunt, in accumsan elit elementum. Nunc sed erat et massa cursus molestie vitae id ante. Fusce tincidunt pulvinar nisi at dignissim. Pellentesque eget neque ut enim sodales elementum quis tristique tellus. Donec sed urna diam. Nunc tempor dui a tempor aliquet. Ut nec egestas ex. Curabitur tempor semper quam, sit amet tincidunt nisi malesuada maximus. Nunc imperdiet lectus et auctor lobortis. Phasellus iaculis urna metus, eu consectetur odio efficitur a. Nunc vitae porta est. Sed elementum nisi et lectus ultricies, vel pellentesque elit tincidunt.
+Quisque vel augue ut dui dapibus varius. Fusce hendrerit ipsum iaculis venenatis accumsan. Nulla at metus hendrerit, scelerisque mi id, aliquam sapien. Proin sed luctus risus, et consectetur nibh. Curabitur arcu mi, mattis quis dignissim vel, fringilla a odio. Donec gravida erat imperdiet vulputate sagittis. In hac habitasse platea dictumst. Proin est velit, commodo at molestie a, semper congue eros. Aliquam erat volutpat. Quisque felis nibh, tempus quis tempus id, dapibus nec nulla.
+Sed in tempus libero. Fusce euismod enim non felis ullamcorper, quis mollis diam porttitor. Donec sollicitudin mattis odio ac iaculis. Vivamus placerat maximus viverra. Praesent at tincidunt ligula. Quisque id vehicula felis. Sed condimentum gravida pellentesque."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
